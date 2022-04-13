@@ -8,6 +8,8 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import MainPage from "./Pages/mainPage";
 import SettingPage from "./Pages/settingPage";
 import Footer from "./Components/Footer";
+import HelpPage from "./Pages/helpPage";
+import AboutUsPage from "./Pages/AboutUsPage";
 
 function App  () {
 
@@ -23,6 +25,9 @@ function App  () {
             <Routes>
                 <Route path={'/'} element={<MainPage/>}/>
                 <Route path={'/setting'} element={<SettingPage/>}/>
+                <Route path={'/help'} element={<HelpPage/>}/>
+                <Route path={'/about_us'} element={<AboutUsPage/>}/>
+
             </Routes>
             <Footer />
         </BrowserRouter>

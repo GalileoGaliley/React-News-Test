@@ -35,7 +35,7 @@ const Header = ({light}) => {
                 </Container>
             </Navbar>
 
-        
+
 
     );
 };
